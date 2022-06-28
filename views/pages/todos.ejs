@@ -1,0 +1,8 @@
+<ul>
+	<% todos.forEach(function(todo) { %>
+		<li>
+			<strong><%= todo.task %></strong>
+			<%= todo.status ? 'done' : 'false' %>
+		</li>
+	<% }); %>
+</ul>
